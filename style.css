@@ -90,3 +90,11 @@ body {
 .form-card .create-btn a:hover {
   background: #42b72a;
 }
+
+@media screen and (max-width : 900px) {
+  .div,.form-card{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+}
